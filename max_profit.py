@@ -1,6 +1,5 @@
-#121. Best Time to Buy and Sell Stock
-class Solution(object):
-    def maxProfit(self, prices):
+"""121 - Best Time to Buy and Sell Stock"""
+def maxProfit(prices):
         if len(prices) == 0:
            return 0
 
@@ -20,5 +19,4 @@ class Solution(object):
 
 if __name__ == '__main__':
     prices = [7,6,4,3,1]
-    t = Solution()
-    print(t.maxProfit(prices))
+    print(maxProfit(prices))
